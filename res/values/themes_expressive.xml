@@ -29,7 +29,7 @@
         <item name="preferenceTheme">@style/SettingsPreferenceTheme.Expressive</item>
         <item name="android:listPreferredItemHeight">72dip</item>
         <item name="android:homeAsUpIndicator">@drawable/ic_arrow_back</item>
-        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">?android:attr/colorBackground</item>
         <item name="android:datePickerDialogTheme">@style/PickerDialogTheme.Settings</item>
 
         <item name="fingerprint_layout_theme">@style/FingerprintLayoutTheme</item>
@@ -37,7 +37,7 @@
         <item name="ic_menu_moreoverflow">@*android:drawable/ic_menu_moreoverflow_holo_dark</item>
 
         <!-- For edge-to-edge -->
-        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">?android:attr/colorBackground</item>
         <item name="android:statusBarColor">@android:color/transparent</item>
 
         <!-- For wifi icon -->
@@ -85,7 +85,7 @@
         <!-- Redefine the ActionBar style for contentInsetStart -->
         <item name="android:actionBarStyle">@style/Widget.ActionBar.SubSettings</item>
 
-        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">?android:attr/colorBackground</item>
         <item name="android:statusBarColor">@android:color/transparent</item>
     </style>
 
